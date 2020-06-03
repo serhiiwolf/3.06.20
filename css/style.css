@@ -3,8 +3,50 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.container{
-	width: 80%;
+.wrapper{
 	background: black;
-	
+	width: 900px;
+	height: 900px;
+	display: grid;
+	margin: 0 auto;
+	grid-template-rows: 0.2fr 1fr 2fr;
 }
+.header_tx h1{
+	color: white;
+	text-align: center;
+}
+.logos{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	
+
+}
+.photo{
+		background-image: url(../img/settings.png);
+		background-size: 70%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+.content{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	padding: 20px;
+}
+.block h1{
+	color: white;
+	text-align: center;
+}
+.block p{
+	color: lightgrey;
+	margin-top: 20px;
+}
+.block li{
+	color: gold;
+	margin-top: 20px;
+}
+.block img{
+	width: 100%;
+	height: 30%;
+	margin-top: 10px;
+	}
